@@ -183,4 +183,18 @@ body{
         margin-left: 15px;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .status{
+        margin-top: 10px;
+        
+    }
+    .footer-area{
+        height: 460px;
+    }
+    .text-bg{
+        width: 50%;
+        margin-left: 15px;
+    }
+  }
   /*--------------------------- Media Section End ------------------------------*/
