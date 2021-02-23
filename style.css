@@ -1,0 +1,186 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.text-welcome{
+    color: #ff19cd;
+}
+.text-digital{
+    color: rgb(255, 115, 0);
+}
+
+
+
+/*--------------------------- carousel section Start ------------------------------*/
+.carousel-item img{
+    height: 400px;
+}
+/*--------------------------- carousel section End ------------------------------*/
+
+
+
+/*--------------------------- Login and submit-area Start ------------------------------*/
+#login-area{
+    padding: 20px 100px;
+    margin-bottom: 20px;
+}
+.submit-area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+.bank-owner{
+    background-color: lightgrey;
+    color: rgb(180, 116, 116);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.owner{
+    color: rgb(0, 81, 128);
+}
+/*--------------------------- Login and submit-area End ------------------------------*/
+
+
+
+/*--------------------------- Transaction-area Start ------------------------------*/
+#title{
+    margin-left: 40%;
+    color: rgb(0, 114, 188);
+}
+#title-2{
+    margin-left: 49%;
+    color: rgb(0, 114, 188);;
+}
+
+
+/*--------------------------- Nav Section Start ------------------------------*/
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+}
+.nav-bg{
+    background-color: lightgrey;
+}
+/*--------------------------- Nav Section End ------------------------------*/
+
+
+
+.header-section{
+    background-image: url(images/bg-1.jpg);
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get-started{
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: white;
+    margin-top: 100px;
+    margin-left: 20%;
+    
+    
+}
+.text-1{
+    margin-left: 35px;
+}
+.bank-text{
+    color: #0072c2;
+}
+.light{
+    width: 84px;
+    height: 83px;
+    margin-left: 85px;
+}
+.text-bg{
+    width: 25%;
+    background-color: #0072c2;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+#headline{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#br-orange{
+    height: 8px;
+    width: 320px;
+    display: block;
+    margin: 10px auto 30px;
+    background-image: linear-gradient(380deg, #35d0ff, #ff19ec);
+    border-radius: 5px;
+}
+
+
+#transaction-area{
+    display: none;
+}
+.transaction-fluid{
+    padding: 20px 100px;
+}
+
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+/*--------------------------- Transaction-area end ------------------------------*/
+
+
+
+/*--------------------------- Footer Section Start ------------------------------*/
+.text-2{
+    text-align: center;
+    margin-top: 50px;
+}
+.text-3{
+
+    text-align: center;
+    margin: 20px 100px;
+}
+.footer-area{
+    background-color: gray;
+    margin-top: 50px;
+    color: white;
+    height: 250px;
+}
+.footer{
+    padding: 10px 20px;
+}
+.footer-text{
+    font-size: 12px;
+    text-align: center;
+}
+/*--------------------------- Footer Section End ------------------------------*/
+
+
+
+/*--------------------------- Media Section Start ------------------------------*/
+@media only screen and (max-width: 600px) {
+    .status{
+        margin-top: 10px;
+        
+    }
+    .footer-area{
+        height: 460px;
+    }
+    .text-bg{
+        width: 50%;
+        margin-left: 15px;
+    }
+  }
+  /*--------------------------- Media Section End ------------------------------*/
